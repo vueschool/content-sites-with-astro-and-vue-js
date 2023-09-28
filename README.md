@@ -1,25 +1,14 @@
-# Astro Starter Kit: Blog
+# Content Sites with Astro and Vue.js
 
-```sh
-npm create astro@latest -- --template blog
-```
+![https://vueschool.io/courses/content-sites-with-astro-and-vue-js](https://vueschool.io/storage/media/fbedcf3f068608ef41fac94cae9da466/astro-vue.jpg)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+This repository contains the example code for the [Content Sites with Astro and Vue.js](https://vueschool.io/courses/content-sites-with-astro-and-vue-js) course.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Combining Vue.js with Astro for building content sites, like blogs or docs, makes for a blazing-fast site and an A+ developer experience. Why? Astro is a modern front-end framework that allows you to build with the JavaScript technology of your choice (think React, Vue, Svelte, and more) but doesn’t ship any JavaScript by default. This is known as an islands architecture, where we opt-in to JavaScript instead of vice-versa.
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+In this course, learn the basics of getting started with Astro by building a simple blog. Also, learn to integrate it with your favorite JavaScript framework Vue.js for templating that’s familiar and for sprinkling in interactivity only where required.
 
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+[Enroll at Vue School](https://vueschool.io/register) to watch this course!
 
 ## 🚀 Project Structure
 
@@ -65,4 +54,4 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 ## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This codebase is based on the [Official Blog Theme from Astro](https://astro.build/themes/details/blog/)
