@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import Counter from "../components/Counter.vue"
+import Astronaut from "../components/Astronaut.vue"
 ---
 
 <!doctype html>
@@ -14,11 +14,7 @@ import Counter from "../components/Counter.vue"
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<Counter client:load initialCount={3}>
-				<div slot="top">Hello</div>
-				<div slot="bottom">Hello Bottom</div>
-			</Counter>
+			<h1><Astronaut client:idle></Astronaut> Hello, Astronaut!</h1>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
 				template serves as a lightweight, minimally-styled starting point for anyone looking to
